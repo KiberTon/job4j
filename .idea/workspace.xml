@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9aa5f980-6771-4800-a4a1-739eda160213" name="Default Changelist" comment="" />
+    <list default="true" id="9aa5f980-6771-4800-a4a1-739eda160213" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_001/src/test/java/ru/job4j/condition/DummyBotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_001/src/main/java/ru/job4j/condition/DummyBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_001/src/main/java/ru/job4j/condition/DummyBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_001/target/classes/ru/job4j/condition/DummyBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_001/target/classes/ru/job4j/condition/DummyBot.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -37,7 +46,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1Tbxebl8cknlAgkTWCofawqrKO1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
@@ -63,7 +76,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Point">
+  <component name="RunManager" selected="JUnit.DummyBotTest.whenUnknownBot">
+    <configuration name="DummyBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.DummyBot" />
+      <module name="Chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.Point" />
       <module name="Chapter_001" />
@@ -77,65 +103,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConverterTest.rubleToDollar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DummyBotTest.whenByeBot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chapter_001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.converter.*" />
+          <option name="PATTERN" value="ru.job4j.condition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.converter" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.converter.ConverterTest" />
-      <option name="METHOD_NAME" value="rubleToDollar" />
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.DummyBotTest" />
+      <option name="METHOD_NAME" value="whenByeBot" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConverterTest.rubleToEuro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DummyBotTest.whenGreetBot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chapter_001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.converter.*" />
+          <option name="PATTERN" value="ru.job4j.condition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.converter" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.converter.ConverterTest" />
-      <option name="METHOD_NAME" value="rubleToEuro" />
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.DummyBotTest" />
+      <option name="METHOD_NAME" value="whenGreetBot" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FitTest.manWeight (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DummyBotTest.whenUnknownBot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chapter_001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.job4j.calculator.*" />
+          <option name="PATTERN" value="ru.job4j.condition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.calculator" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.calculator.FitTest" />
-      <option name="METHOD_NAME" value="manWeight" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FitTest.womenWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chapter_001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.calculator" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.calculator.FitTest" />
-      <option name="METHOD_NAME" value="womenWeight" />
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.DummyBotTest" />
+      <option name="METHOD_NAME" value="whenUnknownBot" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DummyBotTest.whenUnknownBot" />
+        <item itemvalue="JUnit.DummyBotTest.whenByeBot" />
+        <item itemvalue="JUnit.DummyBotTest.whenGreetBot" />
+        <item itemvalue="Application.DummyBot" />
         <item itemvalue="Application.Point" />
-        <item itemvalue="JUnit.ConverterTest.rubleToDollar" />
-        <item itemvalue="JUnit.ConverterTest.rubleToEuro" />
-        <item itemvalue="JUnit.FitTest.womenWeight" />
-        <item itemvalue="JUnit.FitTest.manWeight (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,11 +172,22 @@
       <option name="presentableId" value="Default" />
       <updated>1573742692833</updated>
       <workItem from="1573742695968" duration="5577000" />
-      <workItem from="1573805920724" duration="1497000" />
+      <workItem from="1573805920724" duration="2866000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
