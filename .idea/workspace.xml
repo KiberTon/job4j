@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa5f980-6771-4800-a4a1-739eda160213" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter_001/src/main/java/ru/job4j/condition/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_001/src/test/java/ru/job4j/condition/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_001/src/main/java/ru/job4j/condition/MultiMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_001/src/test/java/ru/job4j/condition/MultiMaxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +75,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleTest.whenNoExist">
-    <configuration name="MaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MultiMaxTest.whenNumbersEquals">
+    <configuration name="MultiMaxTest.whenFirstMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chapter_001" />
       <extension name="coverage">
         <pattern>
@@ -85,29 +85,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.condition" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxTest.whenMax1EqualsTo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chapter_001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.condition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
-      <option name="METHOD_NAME" value="whenMax1EqualsTo2" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MultiMaxTest" />
+      <option name="METHOD_NAME" value="whenFirstMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxTest.whenMax2To1Then1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiMaxTest.whenNumbersEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chapter_001" />
       <extension name="coverage">
         <pattern>
@@ -116,14 +101,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.condition" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
-      <option name="METHOD_NAME" value="whenMax2To1Then1" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MultiMaxTest" />
+      <option name="METHOD_NAME" value="whenNumbersEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest.whenExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiMaxTest.whenSecondMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chapter_001" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +117,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.job4j.condition" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.TriangleTest" />
-      <option name="METHOD_NAME" value="whenExist" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MultiMaxTest" />
+      <option name="METHOD_NAME" value="whenSecondMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiMaxTest.whenThirdMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MultiMaxTest" />
+      <option name="METHOD_NAME" value="whenThirdMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultiMaxTest.whenNumbersEquals" />
+        <item itemvalue="JUnit.MultiMaxTest.whenSecondMax" />
+        <item itemvalue="JUnit.MultiMaxTest.whenFirstMax" />
+        <item itemvalue="JUnit.MultiMaxTest.whenThirdMax" />
         <item itemvalue="JUnit.TriangleTest.whenNoExist" />
-        <item itemvalue="JUnit.TriangleTest.whenExist" />
-        <item itemvalue="JUnit.MaxTest" />
-        <item itemvalue="JUnit.MaxTest.whenMax1EqualsTo2" />
-        <item itemvalue="JUnit.MaxTest.whenMax2To1Then1" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +180,7 @@
       <workItem from="1573805920724" duration="3149000" />
       <workItem from="1573816045901" duration="618000" />
       <workItem from="1573817375844" duration="1255000" />
-      <workItem from="1573906207511" duration="6443000" />
+      <workItem from="1573906207511" duration="11178000" />
     </task>
     <task id="LOCAL-00001" summary="Глупый бот. [#31323]">
       <created>1573815309614</created>
@@ -195,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573910462427</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="А существует ли треугольник? [#9461]">
+      <created>1573927543355</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573927543355</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +225,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Глупый бот. [#31323]" />
     <MESSAGE value="Максимум из двух чисел [#189]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Максимум из двух чисел [#189]" />
+    <MESSAGE value="А существует ли треугольник? [#9461]" />
+    <option name="LAST_COMMIT_MESSAGE" value="А существует ли треугольник? [#9461]" />
   </component>
 </project>
