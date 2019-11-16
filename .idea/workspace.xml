@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aa5f980-6771-4800-a4a1-739eda160213" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter_001/src/main/java/ru/job4j/condition/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter_001/src/test/java/ru/job4j/condition/MaxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_001/target/Chapter_001-3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_001/target/Chapter_001-3.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_001/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_001/target/surefire-reports/TEST-ru.job4j.calculator.FitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_001/target/surefire-reports/TEST-ru.job4j.calculator.FitTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_001/target/surefire-reports/TEST-ru.job4j.converter.ConverterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_001/target/surefire-reports/TEST-ru.job4j.converter.ConverterTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_001/target/surefire-reports/ru.job4j.calculator.FitTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_001/target/surefire-reports/ru.job4j.calculator.FitTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_001/target/surefire-reports/ru.job4j.converter.ConverterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_001/target/surefire-reports/ru.job4j.converter.ConverterTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,65 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DummyBotTest.whenUnknownBot">
-    <configuration name="DummyBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.DummyBot" />
-      <module name="Chapter_001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.condition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.Point" />
-      <module name="Chapter_001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.condition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DummyBotTest.whenByeBot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chapter_001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.condition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.DummyBotTest" />
-      <option name="METHOD_NAME" value="whenByeBot" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DummyBotTest.whenGreetBot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chapter_001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.job4j.condition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
-      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.DummyBotTest" />
-      <option name="METHOD_NAME" value="whenGreetBot" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MaxTest">
     <configuration name="DummyBotTest.whenUnknownBot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chapter_001" />
       <extension name="coverage">
@@ -159,13 +92,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxTest.whenMax1EqualsTo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
+      <option name="METHOD_NAME" value="whenMax1EqualsTo2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxTest.whenMax1To2Then2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
+      <option name="METHOD_NAME" value="whenMax1To2Then2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxTest.whenMax2To1Then1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.condition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.condition" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.condition.MaxTest" />
+      <option name="METHOD_NAME" value="whenMax2To1Then1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaxTest" />
+        <item itemvalue="JUnit.MaxTest.whenMax1EqualsTo2" />
+        <item itemvalue="JUnit.MaxTest.whenMax2To1Then1" />
+        <item itemvalue="JUnit.MaxTest.whenMax1To2Then2" />
         <item itemvalue="JUnit.DummyBotTest.whenUnknownBot" />
-        <item itemvalue="JUnit.DummyBotTest.whenByeBot" />
-        <item itemvalue="JUnit.DummyBotTest.whenGreetBot" />
-        <item itemvalue="Application.DummyBot" />
-        <item itemvalue="Application.Point" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +178,8 @@
       <workItem from="1573742695968" duration="5577000" />
       <workItem from="1573805920724" duration="3149000" />
       <workItem from="1573816045901" duration="618000" />
-      <workItem from="1573817375844" duration="649000" />
+      <workItem from="1573817375844" duration="1255000" />
+      <workItem from="1573906207511" duration="3824000" />
     </task>
     <task id="LOCAL-00001" summary="Глупый бот. [#31323]">
       <created>1573815309614</created>
