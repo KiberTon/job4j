@@ -9,5 +9,9 @@
         <module name="Chapter_001" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Chapter_001" target="1.7" />
+      <module name="job4j" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
