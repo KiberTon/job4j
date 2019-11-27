@@ -1,25 +1,60 @@
-package ru.job4j.calculator;
+package ru.job4j.calculate;
 
-public class Calculator {
+/**
+ * Calculate.
+ * @author Anton Kibekin (kibekin1984anton@gmail.com)
+ *
+ */
+
+public class Calculate {
+
+    /**
+     * add
+     * @param first
+     * @param second
+     */
 
     public static void add(int first, int second) {
         int result = first + second;
         System.out.println(first + " + " + second + " = " + result );
     }
 
+    /**
+     * div
+     * @param first
+     * @param second
+     */
+
     public static void div(int first, int second) {
         int result = first / second;
         System.out.println(first + " / " + second + " = " + result);
     }
+
+    /**
+     * multiply
+     * @param first
+     * @param second
+     */
     public static void multiply(int first, int second) {
         int result = first * second;
         System.out.println(first + " * " + second + " = " + result);
     }
 
+    /**
+     * subtract
+     * @param first
+     * @param second
+     */
+
     public static void subtract(int first, int second) {
         int result = first - second;
         System.out.println(first + " - " + second + " = " + result);
     }
+
+    /**
+     * main
+     * @param args
+     */
 
 
     public static void main(String[] args) {
