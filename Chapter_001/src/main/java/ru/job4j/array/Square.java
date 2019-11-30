@@ -5,9 +5,9 @@ public class Square {
 
     public int[] calculate(int bound) {
         int[] rst = new int[bound];
-        for (int i = 1; i < bound; i++) {
-            rst[i] = (int) Math.pow(i, 2);
-//            System.out.println(rst[i]);
+        for (int i = 0; i < bound; i++) {
+            rst[i] = (i + 1) * (i + 1);
+//            rst[i] = (int) Math.pow(i, 2);
         }
         return rst;
     }
