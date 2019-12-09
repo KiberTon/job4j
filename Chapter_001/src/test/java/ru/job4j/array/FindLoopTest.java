@@ -19,7 +19,7 @@ public class FindLoopTest {
 
     @Test
     public void whenFind3() {
-        int[] input = new int[] {5, 2, 10, 2, 4};
+        int[] input = new int[]{5, 2, 10, 2, 4};
         int value = 2;
         int start = 2;
         int finish = 4;
