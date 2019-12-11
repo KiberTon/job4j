@@ -66,6 +66,7 @@ jrebel.lic
 .*.sw?
 .idea
 target
+.idea/
 
 # paulp script
 /.lib/
