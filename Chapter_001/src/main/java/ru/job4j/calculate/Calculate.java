@@ -2,25 +2,27 @@ package ru.job4j.calculate;
 
 /**
  * Calculate.
- * @author Anton Kibekin (kibekin1984anton@gmail.com)
  *
+ * @author Anton Kibekin (kibekin1984anton@gmail.com)
  */
 
 public class Calculate {
 
     /**
      * add
+     *
      * @param first
      * @param second
      */
 
     public static void add(int first, int second) {
         int result = first + second;
-        System.out.println(first + " + " + second + " = " + result );
+        System.out.println(first + " + " + second + " = " + result);
     }
 
     /**
      * div
+     *
      * @param first
      * @param second
      */
@@ -32,6 +34,7 @@ public class Calculate {
 
     /**
      * multiply
+     *
      * @param first
      * @param second
      */
@@ -42,6 +45,7 @@ public class Calculate {
 
     /**
      * subtract
+     *
      * @param first
      * @param second
      */
@@ -53,6 +57,7 @@ public class Calculate {
 
     /**
      * main
+     *
      * @param args
      */
 

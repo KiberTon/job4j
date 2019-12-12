@@ -6,16 +6,13 @@ public class Point {
 
         double a = (x2 - x1) * 2;
         double b = (y2 - y1) * 2;
-        double с = Math.sqrt(a + b);
-        return с;
+        double c = Math.sqrt(a + b);
+        return c;
 //        double z = Math.pow((x2-x1), 2) + Math.pow((y2-y1), 2);
 //        double d = Math.sqrt(z);
 //        return d;
 
     }
-
-
-
 
 
     public static void main(String[] args) {
